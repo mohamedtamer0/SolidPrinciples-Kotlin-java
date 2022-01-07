@@ -7,6 +7,7 @@ class UserProfile {
     3- block -> compliance
     4- send message
     5- show friends list
+    6- unBlock -> compliance
      */
 
 }
@@ -19,6 +20,11 @@ class ProfileRestrictionsManager {
     fun block(userProfile: UserProfile) {
         //....
     }
+
+    fun unBlock(userProfile: UserProfile) {
+        //....
+    }
+
 }
 
 class FriendsList {
