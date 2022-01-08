@@ -39,6 +39,7 @@ class ShapeUtils {
     public static void main(String[] args) {
         Rectangle rectangle = new Rectangle(10, 30);
         System.out.println("Old " + rectangle.toString());
+
         Rectangle newRectangle = extendRectangleWidth(rectangle, 2);
         System.out.println("New " + newRectangle.toString());
     }
